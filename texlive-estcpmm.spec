@@ -1,3 +1,9 @@
+# revision 17335
+# category Package
+# catalog-ctan /macros/latex/contrib/estcpmm
+# catalog-date 2010-03-04 23:40:34 +0100
+# catalog-license lppl
+# catalog-version 0.4
 Name:		texlive-estcpmm
 Version:	0.4
 Release:	1
@@ -53,6 +59,7 @@ Corps of Engineers, Engineer Research and Development Center,
 %doc %{_texmfdistdir}/source/latex/estcpmm/Makefile
 %doc %{_texmfdistdir}/source/latex/estcpmm/estcpmm.dtx
 %doc %{_texmfdistdir}/source/latex/estcpmm/estcpmm.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +70,5 @@ Corps of Engineers, Engineer Research and Development Center,
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
