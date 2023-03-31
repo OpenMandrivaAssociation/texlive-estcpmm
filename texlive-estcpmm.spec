@@ -1,6 +1,6 @@
 Name:		texlive-estcpmm
 Version:	17335
-Release:	1
+Release:	2
 Summary:	Style for Munitions Management Project Reports
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/estcpmm
