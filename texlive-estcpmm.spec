@@ -3,7 +3,7 @@ Version:	17335
 Release:	2
 Summary:	Style for Munitions Management Project Reports
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/estcpmm
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/estcpmm
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/estcpmm.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/estcpmm.doc.r%{version}.tar.xz
